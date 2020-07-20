@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Adblock Detector Killer",
+    "version": "1.0",
+  
+    "description": "Kills the annoying AdBlocker detected overlays",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.divany.hu/*"],
+            "js": ["divany.hu.js"]
+        }
+    ]
+  
+}
